@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string>       
 #include <iostream>
-#include<time.h>
+#include <time.h>
 #include <queue>
 #include <vector>
 #include <string>
@@ -360,7 +360,7 @@ int main(){
 	cout << bb << endl; 
     fprintf(wr_bb, "0 ");
 	for(int i = 0; i < V; i++){
-        fprintf(wr_bb, "-> %d ", ans[i]);
+		fprintf(wr_bb, "-> %d ", ans[i]);
 	}
     fprintf(wr_bb, "\ncost     : %d\n", bb);
     cout << "UB = " << UB << '\n';
