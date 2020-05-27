@@ -2,5 +2,4 @@
 
 compile with g++ -o [executable file name] carrier.cpp 
 
-# 盧杯杯
-# 阿狗
+#114
